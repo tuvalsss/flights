@@ -1,0 +1,32 @@
+{
+  "brand": "FlightsBook",
+  "tagline": {
+    "en": "Your gateway to the FIFA World Cup 2026 — hospitality & travel packages.",
+    "ru": "Ваш проход на Чемпионат мира FIFA 2026 — пакеты гостеприимства и путешествий.",
+    "es": "Tu acceso al Mundial FIFA 2026 — paquetes de hospitality y viaje.",
+    "ar": "بوابتك إلى كأس العالم 2026 — باقات الضيافة والسفر."
+  },
+  "heroKicker": {
+    "en": "Canada · Mexico · USA · June 11 – July 19, 2026",
+    "ru": "Канада · Мексика · США · 11 июня – 19 июля 2026",
+    "es": "Canadá · México · EE. UU. · 11 jun – 19 jul 2026",
+    "ar": "كندا · المكسيك · أمريكا · 11 يونيو – 19 يوليو 2026"
+  },
+  "contactEmail": "hello@flightsbook.example",
+  "contactPhone": "+1 (212) 555-2026",
+  "whatsapp": "+1 (212) 555-2026",
+  "currency": "USD",
+  "stats": {
+    "teams": 48,
+    "matches": 104,
+    "cities": 16,
+    "countries": 3
+  },
+  "social": {
+    "instagram": "https://instagram.com",
+    "facebook": "https://facebook.com",
+    "x": "https://x.com"
+  },
+  "defaultLocale": "en",
+  "locales": ["en", "ru", "es", "ar"]
+}
