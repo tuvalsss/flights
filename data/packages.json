@@ -16,6 +16,7 @@
     "popular": true,
     "accent": "sunset",
     "image": "azteca",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174451_d4dd8373-aeae-46d5-886a-8e0784506f6a.png",
     "name": {
       "en": "Azteca Opening Fiesta",
       "ru": "Открытие на «Ацтеке»",
@@ -52,6 +53,7 @@
     "popular": false,
     "accent": "royal",
     "image": "la",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174627_662be63c-f62a-415e-a390-a1440d7dc46b.png",
     "name": {
       "en": "USA Kickoff — Los Angeles",
       "ru": "Старт США — Лос-Анджелес",
@@ -88,6 +90,7 @@
     "popular": true,
     "accent": "pitch",
     "image": "explorer",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174929_a7fdc70a-c2b7-4470-bd15-45645a20ddf3.png",
     "name": {
       "en": "Group Stage Explorer (3 Matches)",
       "ru": "Тур группового этапа (3 матча)",
@@ -124,6 +127,7 @@
     "popular": false,
     "accent": "royal",
     "image": "boston",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174702_a6aa5649-ab2a-4885-b0e4-da9b385f290a.png",
     "name": {
       "en": "Champions Lounge — Quarterfinal",
       "ru": "Champions Lounge — Четвертьфинал",
@@ -160,6 +164,7 @@
     "popular": true,
     "accent": "gold",
     "image": "dallas",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174800_659d93a9-fc6e-4254-a87a-79ae5debe4a1.png",
     "name": {
       "en": "Semifinal Prestige — Dallas",
       "ru": "Полуфинал Prestige — Даллас",
@@ -196,6 +201,7 @@
     "popular": false,
     "accent": "gold",
     "image": "metlife",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174827_95393c5f-187a-4bc8-99ac-a8425429c952.png",
     "name": {
       "en": "Trophy Journey — Final Pitchside",
       "ru": "Путь к трофею — Финал у поля",
@@ -232,6 +238,7 @@
     "popular": true,
     "accent": "gold",
     "image": "vip",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175006_c359b7dc-75c8-4d2d-80d8-73e7ce4bf7ad.png",
     "name": {
       "en": "Final VIP Private Suite",
       "ru": "Финал — VIP приватная ложа",
@@ -268,6 +275,7 @@
     "popular": false,
     "accent": "royal",
     "image": "series",
+    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175039_a0ab5dda-d451-4075-8ddb-e21471699ef8.png",
     "name": {
       "en": "Road to Glory — Final Series (Semis + Final)",
       "ru": "Дорога к славе — серия плей-офф (полуфиналы + финал)",

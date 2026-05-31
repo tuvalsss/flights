@@ -28,5 +28,14 @@
     "x": "https://x.com"
   },
   "defaultLocale": "en",
-  "locales": ["en", "ru", "es", "ar"]
+  "locales": ["en", "ru", "es", "ar"],
+  "media": {
+    "hero": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174338_1c7eb10f-c9fd-414d-989b-5d46d721cab5.png",
+    "regions": {
+      "west": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175103_32bee748-afe1-4df6-879f-eaef17f33a7d.png",
+      "central": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175132_9dd75bab-a680-44fc-bdda-d80ba316ab5a.png",
+      "east": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175203_a1acc39c-faa2-41b7-92fb-74ddbe98dd21.png",
+      "multi": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174929_a7fdc70a-c2b7-4470-bd15-45645a20ddf3.png"
+    }
+  }
 }

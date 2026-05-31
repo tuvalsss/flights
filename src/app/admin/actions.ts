@@ -141,6 +141,7 @@ export async function savePackageAction(fd: FormData) {
     popular: fd.get("popular") === "on",
     accent: str(fd, "accent") || "pitch",
     image: str(fd, "image") || "default",
+    imageUrl: str(fd, "imageUrl"),
     name: localizedFrom(fd, "name"),
     summary: localizedFrom(fd, "summary"),
     includes,
@@ -192,6 +193,15 @@ export async function saveSettingsAction(fd: FormData) {
       matches: num(fd, "matches"),
       cities: num(fd, "cities"),
       countries: num(fd, "countries"),
+    },
+    media: {
+      hero: str(fd, "media_hero"),
+      regions: {
+        west: str(fd, "media_west"),
+        central: str(fd, "media_central"),
+        east: str(fd, "media_east"),
+        multi: str(fd, "media_multi") || current.media?.regions?.multi || "",
+      },
     },
   };
   await saveSettings(next);

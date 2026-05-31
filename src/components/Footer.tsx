@@ -29,6 +29,11 @@ export default function Footer({
           <p className="mt-4 max-w-xs text-sm text-slate-400">
             {t.footer.tagline}
           </p>
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <span className="chip">🇺🇸 USA</span>
+            <span className="chip">🇲🇽 Mexico</span>
+            <span className="chip">🇨🇦 Canada</span>
+          </div>
         </div>
 
         <div>
@@ -90,7 +95,20 @@ export default function Footer({
           <p>
             © {year} {settings.brand}. {t.footer.rights}
           </p>
-          <p className="max-w-xl text-slate-600">{t.footer.disclaimer}</p>
+          <div className="flex items-center gap-3">
+            <a href={settings.social.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white" aria-label="Instagram">
+              Instagram
+            </a>
+            <a href={settings.social.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-white" aria-label="Facebook">
+              Facebook
+            </a>
+            <a href={settings.social.x} target="_blank" rel="noopener noreferrer" className="hover:text-white" aria-label="X">
+              X
+            </a>
+          </div>
+        </div>
+        <div className="container-page pb-6 text-xs text-slate-600">
+          {t.footer.disclaimer}
         </div>
       </div>
     </footer>

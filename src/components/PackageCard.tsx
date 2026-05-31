@@ -22,9 +22,19 @@ export default function PackageCard({
       className="card group flex flex-col overflow-hidden transition hover:-translate-y-1 hover:border-white/20"
     >
       <div
-        className={`relative h-32 bg-gradient-to-br ${gradientFor(pkg.accent)}`}
+        className={`relative h-36 bg-gradient-to-br ${gradientFor(pkg.accent)}`}
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.25),transparent_50%)]" />
+        {pkg.imageUrl && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={pkg.imageUrl}
+            alt={localized(pkg.name, locale)}
+            loading="lazy"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-950/85 via-ink-950/20 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.18),transparent_55%)]" />
         <div className="absolute inset-0 flex items-end justify-between p-4">
           <span className="font-display text-3xl font-black text-white/90 drop-shadow">
             {pkg.hotelStars}★

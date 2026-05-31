@@ -1,5 +1,7 @@
 # ⚽ FlightsBook — FIFA World Cup 2026 Hospitality Platform
 
+**Created:** April 12, 2026
+
 A fast, multilingual web platform for browsing **FIFA World Cup 2026** matches and
 booking **hospitality & travel packages** (accommodation + premium matchday
 hospitality — not bare tickets). Built with **Next.js 14 (App Router)**,

@@ -42,10 +42,33 @@ export default async function HomePage({
 
   const steps = [t.home.how1, t.home.how2, t.home.how3, t.home.how4];
 
+  const regions: { key: "west" | "central" | "east"; cities: string[] }[] = [
+    { key: "west", cities: ["Vancouver", "Seattle", "San Francisco", "Los Angeles"] },
+    {
+      key: "central",
+      cities: ["Mexico City", "Guadalajara", "Monterrey", "Houston", "Dallas", "Kansas City"],
+    },
+    {
+      key: "east",
+      cities: ["Toronto", "Atlanta", "Miami", "Boston", "Philadelphia", "New York / NJ"],
+    },
+  ];
+
   return (
     <>
       {/* Hero */}
       <section className="relative overflow-hidden">
+        {settings.media?.hero && (
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={settings.media.hero}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover opacity-35"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-ink-950/70 via-ink-950/80 to-ink-950" />
+          </>
+        )}
         <div className="absolute inset-0 bg-stadium-grid bg-[size:48px_48px] opacity-40" />
         <div className="container-page relative py-20 sm:py-28">
           <div className="mx-auto max-w-3xl text-center animate-fade-up">
@@ -130,6 +153,50 @@ export default async function HomePage({
               t={t}
               currency={settings.currency}
             />
+          ))}
+        </div>
+      </section>
+
+      {/* Regions */}
+      <section className="container-page py-16">
+        <h2 className="section-title text-center">{t.home.regionsTitle}</h2>
+        <p className="mx-auto mt-2 max-w-2xl text-center text-slate-400">
+          {t.home.regionsSubtitle}
+        </p>
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
+          {regions.map((r) => (
+            <Link
+              key={r.key}
+              href={`/${locale}/packages`}
+              className="card group overflow-hidden"
+            >
+              <div className="relative h-44">
+                {settings.media?.regions?.[r.key] ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={settings.media.regions[r.key]}
+                    alt={t.regions[r.key]}
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-gradient-to-br from-royal-600 to-pitch-600" />
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-5">
+                  <h3 className="font-display text-xl font-bold text-white">
+                    {t.regions[r.key]}
+                  </h3>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-1.5 p-4">
+                {r.cities.map((c) => (
+                  <span key={c} className="chip text-[11px]">
+                    {c}
+                  </span>
+                ))}
+              </div>
+            </Link>
           ))}
         </div>
       </section>

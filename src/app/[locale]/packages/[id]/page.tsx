@@ -50,9 +50,18 @@ export default async function PackageDetailPage({
           <div
             className={`relative h-48 overflow-hidden rounded-3xl bg-gradient-to-br ${gradientFor(
               pkg.accent,
-            )} sm:h-60`}
+            )} sm:h-64`}
           >
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_20%,rgba(255,255,255,0.3),transparent_55%)]" />
+            {pkg.imageUrl && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={pkg.imageUrl}
+                alt={localized(pkg.name, locale)}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            )}
+            <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/30 to-transparent" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_20%,rgba(255,255,255,0.18),transparent_55%)]" />
             <div className="absolute inset-0 flex flex-col justify-end p-6">
               {pkg.popular && (
                 <span className="chip mb-3 w-fit border-white/30 bg-black/30 text-white">

@@ -36,6 +36,7 @@ export interface Package {
   popular: boolean;
   accent: string;
   image: string;
+  imageUrl: string;
   name: LocalizedText;
   summary: LocalizedText;
   includes: Partial<Record<Locale, string[]>>;
@@ -62,6 +63,15 @@ export interface Settings {
   };
   defaultLocale: string;
   locales: string[];
+  media: {
+    hero: string;
+    regions: {
+      west: string;
+      central: string;
+      east: string;
+      multi: string;
+    };
+  };
 }
 
 export type OrderStatus = "pending" | "paid" | "demo" | "cancelled";

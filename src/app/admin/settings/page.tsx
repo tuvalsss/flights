@@ -87,6 +87,27 @@ export default async function AdminSettingsPage({
           </div>
         </section>
 
+        <section className="card p-6">
+          <h2 className="mb-1 font-display text-lg font-bold">Imagery</h2>
+          <p className="mb-4 text-sm text-slate-400">
+            Hero and region image URLs shown across the site.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Field label="Hero image URL">
+              <input name="media_hero" defaultValue={s.media?.hero ?? ""} className="input" placeholder="https://…" />
+            </Field>
+            <Field label="Region: West">
+              <input name="media_west" defaultValue={s.media?.regions?.west ?? ""} className="input" placeholder="https://…" />
+            </Field>
+            <Field label="Region: Central">
+              <input name="media_central" defaultValue={s.media?.regions?.central ?? ""} className="input" placeholder="https://…" />
+            </Field>
+            <Field label="Region: East">
+              <input name="media_east" defaultValue={s.media?.regions?.east ?? ""} className="input" placeholder="https://…" />
+            </Field>
+          </div>
+        </section>
+
         <button type="submit" className="btn-primary px-6 py-2.5">
           Save settings
         </button>

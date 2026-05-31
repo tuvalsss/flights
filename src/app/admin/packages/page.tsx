@@ -28,6 +28,7 @@ const EMPTY: Package = {
   popular: false,
   accent: "pitch",
   image: "default",
+  imageUrl: "",
   name: {},
   summary: {},
   includes: {},
@@ -130,6 +131,16 @@ export default async function AdminPackagesPage({
             Mark as popular
           </label>
           <input type="hidden" name="image" value={p.image} />
+        </div>
+
+        <div className="mt-4">
+          <span className="label">Image URL (hotel / city / stadium photo)</span>
+          <input
+            name="imageUrl"
+            defaultValue={p.imageUrl}
+            className="input"
+            placeholder="https://…"
+          />
         </div>
 
         <div className="mt-6 grid gap-6 lg:grid-cols-2">
