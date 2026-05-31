@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Locale, Dictionary } from "@/i18n/config";
 import { localized } from "@/i18n/config";
 import type { Package } from "@/lib/types";
-import { formatPrice } from "@/lib/format";
+import { formatPrice, formatDate } from "@/lib/format";
 import { gradientFor } from "@/lib/accent";
 
 export default function PackageCard({
@@ -50,6 +50,14 @@ export default function PackageCard({
           <span className="chip">
             🛏️ {pkg.nights} {pkg.nights === 1 ? t.common.night : t.common.nights}
           </span>
+          {pkg.date && (
+            <span className="chip">📅 {formatDate(pkg.date, locale)}</span>
+          )}
+          {pkg.region && (
+            <span className="chip">
+              🌍 {t.regions[pkg.region as keyof Dictionary["regions"]] ?? pkg.region}
+            </span>
+          )}
         </div>
 
         <div className="mt-auto flex items-end justify-between border-t border-white/10 pt-3">

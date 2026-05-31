@@ -83,6 +83,32 @@ export default async function PackageDetailPage({
             </span>
           </div>
 
+          <div className="card mt-8 p-6">
+            <h2 className="font-display text-xl font-bold">{t.board.stay}</h2>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              <StayRow
+                icon="🏨"
+                label={t.board.hotel}
+                value={`${pkg.hotelName} · ${pkg.hotelStars}★`}
+              />
+              <StayRow
+                icon="🍽️"
+                label={t.board.label}
+                value={t.board[pkg.board as keyof Dictionary["board"]] ?? pkg.board}
+              />
+              <StayRow
+                icon="📅"
+                label={t.board.checkIn}
+                value={formatDate(pkg.date, locale)}
+              />
+              <StayRow
+                icon="📅"
+                label={t.board.checkOut}
+                value={formatDate(pkg.endDate, locale)}
+              />
+            </div>
+          </div>
+
           <h2 className="mt-10 font-display text-xl font-bold">
             {t.packages.detailIncludes}
           </h2>
@@ -174,6 +200,30 @@ export default async function PackageDetailPage({
           </div>
         </section>
       )}
+    </div>
+  );
+}
+
+function StayRow({
+  icon,
+  label,
+  value,
+}: {
+  icon: string;
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="flex items-center gap-3">
+      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white/5 text-lg">
+        {icon}
+      </span>
+      <div>
+        <div className="text-xs uppercase tracking-wide text-slate-500">
+          {label}
+        </div>
+        <div className="text-sm font-medium text-slate-100">{value}</div>
+      </div>
     </div>
   );
 }

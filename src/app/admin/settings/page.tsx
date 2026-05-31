@@ -1,12 +1,18 @@
 import AdminShell from "@/components/admin/AdminShell";
 import { getSettings } from "@/lib/store";
-import { saveSettingsAction } from "@/app/admin/actions";
+import { getAdminUsername } from "@/lib/admin-store";
+import { saveSettingsAction, updateCredentialsAction } from "@/app/admin/actions";
 import { locales, localeNames, type Locale } from "@/i18n/config";
 
 export const dynamic = "force-dynamic";
 
-export default async function AdminSettingsPage() {
+export default async function AdminSettingsPage({
+  searchParams,
+}: {
+  searchParams: { credOk?: string; credErr?: string };
+}) {
   const s = await getSettings();
+  const adminUsername = await getAdminUsername();
 
   return (
     <AdminShell active="/admin/settings" title="Settings">
@@ -83,6 +89,34 @@ export default async function AdminSettingsPage() {
 
         <button type="submit" className="btn-primary px-6 py-2.5">
           Save settings
+        </button>
+      </form>
+
+      <form action={updateCredentialsAction} className="card mt-6 p-6">
+        <h2 className="mb-1 font-display text-lg font-bold">Admin credentials</h2>
+        <p className="mb-4 text-sm text-slate-400">
+          Change the username and password used to sign in to this console.
+        </p>
+        {searchParams.credOk && (
+          <p className="mb-4 rounded-lg bg-pitch-500/10 px-3 py-2 text-sm text-pitch-300">
+            ✓ Credentials updated.
+          </p>
+        )}
+        {searchParams.credErr && (
+          <p className="mb-4 rounded-lg bg-red-500/10 px-3 py-2 text-sm text-red-400">
+            Username must be 2+ and password 4+ characters.
+          </p>
+        )}
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="New username">
+            <input name="newUsername" defaultValue={adminUsername} className="input" required />
+          </Field>
+          <Field label="New password">
+            <input name="newPassword" type="password" className="input" required minLength={4} />
+          </Field>
+        </div>
+        <button type="submit" className="btn-primary mt-5 px-6 py-2.5">
+          Update credentials
         </button>
       </form>
     </AdminShell>

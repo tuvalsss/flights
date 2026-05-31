@@ -12,6 +12,7 @@
     "venue": "Estadio Azteca",
     "city": "Mexico City",
     "country": "Mexico",
+    "region": "central",
     "featured": true
   },
   {
@@ -27,6 +28,7 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "country": "Canada",
+    "region": "east",
     "featured": true
   },
   {
@@ -42,6 +44,7 @@
     "venue": "Los Angeles Stadium",
     "city": "Los Angeles",
     "country": "United States",
+    "region": "west",
     "featured": true
   },
   {
@@ -57,6 +60,7 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami",
     "country": "United States",
+    "region": "east",
     "featured": true
   },
   {
@@ -72,6 +76,7 @@
     "venue": "AT&T Stadium",
     "city": "Dallas",
     "country": "United States",
+    "region": "central",
     "featured": true
   },
   {
@@ -87,6 +92,7 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "country": "United States",
+    "region": "east",
     "featured": false
   },
   {
@@ -102,6 +108,7 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "country": "United States",
+    "region": "east",
     "featured": false
   },
   {
@@ -117,6 +124,7 @@
     "venue": "Levi's Stadium",
     "city": "San Francisco Bay Area",
     "country": "United States",
+    "region": "west",
     "featured": false
   },
   {
@@ -132,6 +140,7 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "country": "United States",
+    "region": "central",
     "featured": false
   },
   {
@@ -147,6 +156,7 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "country": "United States",
+    "region": "west",
     "featured": false
   },
   {
@@ -162,6 +172,7 @@
     "venue": "Estadio BBVA",
     "city": "Monterrey",
     "country": "Mexico",
+    "region": "central",
     "featured": false
   },
   {
@@ -177,6 +188,7 @@
     "venue": "Gillette Stadium",
     "city": "Boston",
     "country": "United States",
+    "region": "east",
     "featured": true
   },
   {
@@ -192,6 +204,7 @@
     "venue": "AT&T Stadium",
     "city": "Dallas",
     "country": "United States",
+    "region": "central",
     "featured": true
   },
   {
@@ -207,6 +220,7 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "country": "United States",
+    "region": "east",
     "featured": true
   },
   {
@@ -222,6 +236,7 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami",
     "country": "United States",
+    "region": "east",
     "featured": false
   },
   {
@@ -237,6 +252,7 @@
     "venue": "MetLife Stadium",
     "city": "New York / New Jersey",
     "country": "United States",
+    "region": "east",
     "featured": true
   }
 ]

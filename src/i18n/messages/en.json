@@ -137,6 +137,45 @@
     "rights": "All rights reserved.",
     "disclaimer": "FlightsBook is an independent travel & hospitality provider and is not affiliated with or endorsed by FIFA."
   },
+  "search": {
+    "packagesPlaceholder": "Search packages, cities, hotels…",
+    "matchesPlaceholder": "Search teams, cities, venues…",
+    "region": "Region",
+    "allRegions": "All regions",
+    "date": "Dates",
+    "anyDate": "Any date",
+    "dateFrom": "From",
+    "dateTo": "To",
+    "price": "Max price",
+    "anyPrice": "Any price",
+    "sort": "Sort by",
+    "sortPopular": "Most popular",
+    "sortPriceLow": "Price: low to high",
+    "sortPriceHigh": "Price: high to low",
+    "sortDate": "Date: earliest",
+    "filters": "Filters",
+    "reset": "Reset",
+    "results": "{n} results",
+    "noResults": "No results match your search. Try adjusting the filters."
+  },
+  "regions": {
+    "west": "West (Pacific)",
+    "central": "Central (Mexico & Texas)",
+    "east": "East (Atlantic)",
+    "multi": "Multi-city"
+  },
+  "board": {
+    "label": "Board basis",
+    "accommodation": "Accommodation",
+    "hotel": "Hotel",
+    "stay": "Your stay",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "bb": "Bed & breakfast",
+    "hb": "Half board",
+    "ai": "All inclusive",
+    "ro": "Room only"
+  },
   "notFound": {
     "title": "Page not found",
     "body": "The page you're looking for has been subbed off.",

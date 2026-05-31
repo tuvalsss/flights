@@ -26,6 +26,8 @@ yarn-error.log*
 
 # runtime order data (persisted at runtime, seeded empty)
 /data/orders.json
+# runtime admin credentials (seeded on first run: admin / 122122)
+/data/admin.json
 
 # editor
 .vscode/

@@ -13,19 +13,6 @@ function sign(payload: string): string {
   return crypto.createHmac("sha256", secret()).update(payload).digest("hex");
 }
 
-export function checkCredentials(username: string, password: string): boolean {
-  const expectedUser = process.env.ADMIN_USERNAME || "admin";
-  const expectedPass = process.env.ADMIN_PASSWORD || "change-me-now";
-  // constant-time-ish comparison
-  const uOk =
-    username.length === expectedUser.length &&
-    crypto.timingSafeEqual(Buffer.from(username), Buffer.from(expectedUser));
-  const pOk =
-    password.length === expectedPass.length &&
-    crypto.timingSafeEqual(Buffer.from(password), Buffer.from(expectedPass));
-  return uOk && pOk;
-}
-
 export function createSessionToken(): string {
   const exp = Date.now() + MAX_AGE * 1000;
   const payload = `admin.${exp}`;

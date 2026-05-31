@@ -39,6 +39,7 @@ export default async function AdminMatchesPage({
     venue: "",
     city: "",
     country: "",
+    region: "central",
     featured: false,
   };
 
@@ -95,6 +96,13 @@ export default async function AdminMatchesPage({
           </Field>
           <Field label="Country">
             <input name="country" defaultValue={m.country} className="input" />
+          </Field>
+          <Field label="Region">
+            <select name="region" defaultValue={m.region} className="input">
+              <option value="west">West (Pacific)</option>
+              <option value="central">Central (Mexico & Texas)</option>
+              <option value="east">East (Atlantic)</option>
+            </select>
           </Field>
           <label className="flex items-center gap-2 self-end pb-2 text-sm">
             <input

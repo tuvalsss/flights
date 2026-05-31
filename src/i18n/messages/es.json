@@ -137,6 +137,45 @@
     "rights": "Todos los derechos reservados.",
     "disclaimer": "FlightsBook es un proveedor independiente de viajes y hospitality y no está afiliado ni respaldado por la FIFA."
   },
+  "search": {
+    "packagesPlaceholder": "Buscar paquetes, ciudades, hoteles…",
+    "matchesPlaceholder": "Buscar selecciones, ciudades, estadios…",
+    "region": "Región",
+    "allRegions": "Todas las regiones",
+    "date": "Fechas",
+    "anyDate": "Cualquier fecha",
+    "dateFrom": "Desde",
+    "dateTo": "Hasta",
+    "price": "Precio máx.",
+    "anyPrice": "Cualquier precio",
+    "sort": "Ordenar por",
+    "sortPopular": "Más populares",
+    "sortPriceLow": "Precio: de menor a mayor",
+    "sortPriceHigh": "Precio: de mayor a menor",
+    "sortDate": "Fecha: más próxima",
+    "filters": "Filtros",
+    "reset": "Restablecer",
+    "results": "{n} resultados",
+    "noResults": "No hay resultados. Ajusta los filtros."
+  },
+  "regions": {
+    "west": "Oeste (Pacífico)",
+    "central": "Centro (México y Texas)",
+    "east": "Este (Atlántico)",
+    "multi": "Varias ciudades"
+  },
+  "board": {
+    "label": "Régimen",
+    "accommodation": "Alojamiento",
+    "hotel": "Hotel",
+    "stay": "Tu estancia",
+    "checkIn": "Entrada",
+    "checkOut": "Salida",
+    "bb": "Alojamiento y desayuno",
+    "hb": "Media pensión",
+    "ai": "Todo incluido",
+    "ro": "Solo alojamiento"
+  },
   "notFound": {
     "title": "Página no encontrada",
     "body": "La página que buscas fue sustituida.",

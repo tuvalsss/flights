@@ -15,6 +15,7 @@ export interface Match {
   venue: string;
   city: string;
   country: string;
+  region: string;
   featured: boolean;
 }
 
@@ -24,8 +25,13 @@ export interface Package {
   category: string;
   city: string;
   country: string;
+  region: string;
+  date: string;
+  endDate: string;
   nights: number;
   hotelStars: number;
+  hotelName: string;
+  board: string;
   priceFrom: number;
   popular: boolean;
   accent: string;

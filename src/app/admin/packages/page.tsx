@@ -17,8 +17,13 @@ const EMPTY: Package = {
   category: "group",
   city: "",
   country: "",
+  region: "central",
+  date: "",
+  endDate: "",
   nights: 3,
   hotelStars: 4,
+  hotelName: "",
+  board: "bb",
   priceFrom: 0,
   popular: false,
   accent: "pitch",
@@ -27,6 +32,9 @@ const EMPTY: Package = {
   summary: {},
   includes: {},
 };
+
+const REGIONS = ["west", "central", "east", "multi"];
+const BOARDS = ["bb", "hb", "ai", "ro"];
 
 export default async function AdminPackagesPage({
   searchParams,
@@ -76,6 +84,29 @@ export default async function AdminPackagesPage({
           </Field>
           <Field label="Country">
             <input name="country" defaultValue={p.country} className="input" />
+          </Field>
+          <Field label="Region">
+            <select name="region" defaultValue={p.region} className="input">
+              {REGIONS.map((r) => (
+                <option key={r} value={r}>{r}</option>
+              ))}
+            </select>
+          </Field>
+          <Field label="Check-in date">
+            <input name="date" defaultValue={p.date} className="input" placeholder="2026-06-11" />
+          </Field>
+          <Field label="Check-out date">
+            <input name="endDate" defaultValue={p.endDate} className="input" placeholder="2026-06-14" />
+          </Field>
+          <Field label="Hotel name">
+            <input name="hotelName" defaultValue={p.hotelName} className="input" />
+          </Field>
+          <Field label="Board basis">
+            <select name="board" defaultValue={p.board} className="input">
+              {BOARDS.map((b) => (
+                <option key={b} value={b}>{b}</option>
+              ))}
+            </select>
           </Field>
           <Field label="Accent colour">
             <select name="accent" defaultValue={p.accent} className="input">

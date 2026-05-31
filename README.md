@@ -21,8 +21,12 @@ everything end‑to‑end.
 - **World‑Cup‑themed design** — pitch greens, gold and royal gradients, responsive
   and mobile‑first.
 - **Real fixtures & venues** for World Cup 2026 (browsable, filterable by stage).
-- **Hospitality packages** with localized names, summaries and inclusions, linked
-  to specific matches/stages.
+- **Powerful search & filters** on matches and packages — free‑text search, world
+  **region** (West / Central / East / Multi‑city), **date range**, max price and
+  sorting, with a live result count.
+- **Hospitality packages** with localized names, summaries and inclusions,
+  **accommodation details** (hotel, board basis, check‑in/out, nights, stars) and
+  linked matches/stages.
 - **Direct secure checkout** via Stripe — keys provided through env vars. Falls
   back to a **demo mode** (orders recorded, no charge) when no keys are set, so the
   site works immediately.
@@ -47,8 +51,8 @@ npm run start
 ```
 
 The site redirects `/` → `/en`. Switch languages from the header.
-The admin console lives at **`/admin`** (default login `admin` / `change-me-now`
-— change it via env vars).
+The admin console lives at **`/admin`** (default login **`admin` / `122122`**).
+You can change the username & password any time from **Admin → Settings**.
 
 ---
 

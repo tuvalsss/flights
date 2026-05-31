@@ -3,12 +3,12 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import {
-  checkCredentials,
   createSessionToken,
   setSessionCookie,
   clearSessionCookie,
   isAuthenticated,
 } from "@/lib/auth";
+import { verifyCredentials, setCredentials } from "@/lib/admin-store";
 import {
   getMatches,
   saveMatches,
@@ -49,7 +49,7 @@ function refreshAll() {
 export async function loginAction(fd: FormData) {
   const username = str(fd, "username");
   const password = str(fd, "password");
-  if (!checkCredentials(username, password)) {
+  if (!(await verifyCredentials(username, password))) {
     redirect("/admin/login?error=1");
   }
   setSessionCookie(createSessionToken());
@@ -59,6 +59,17 @@ export async function loginAction(fd: FormData) {
 export async function logoutAction() {
   clearSessionCookie();
   redirect("/admin/login");
+}
+
+export async function updateCredentialsAction(fd: FormData) {
+  guard();
+  const username = str(fd, "newUsername");
+  const password = str(fd, "newPassword");
+  if (username.length < 2 || password.length < 4) {
+    redirect("/admin/settings?credErr=1");
+  }
+  await setCredentials(username, password);
+  redirect("/admin/settings?credOk=1");
 }
 
 /* ── Matches ────────────────────────────────────────────── */
@@ -80,6 +91,7 @@ export async function saveMatchAction(fd: FormData) {
     venue: str(fd, "venue"),
     city: str(fd, "city"),
     country: str(fd, "country"),
+    region: str(fd, "region") || "central",
     featured: fd.get("featured") === "on",
   };
   const idx = matches.findIndex((m) => m.id === record.id);
@@ -118,8 +130,13 @@ export async function savePackageAction(fd: FormData) {
     category: str(fd, "category") || "group",
     city: str(fd, "city"),
     country: str(fd, "country"),
+    region: str(fd, "region") || "central",
+    date: str(fd, "date"),
+    endDate: str(fd, "endDate"),
     nights: num(fd, "nights"),
     hotelStars: num(fd, "hotelStars"),
+    hotelName: str(fd, "hotelName"),
+    board: str(fd, "board") || "bb",
     priceFrom: num(fd, "priceFrom"),
     popular: fd.get("popular") === "on",
     accent: str(fd, "accent") || "pitch",

@@ -1,6 +1,6 @@
 import { getDictionary, type Locale } from "@/i18n/config";
 import { getMatches } from "@/lib/store";
-import MatchList from "@/components/MatchList";
+import MatchExplorer from "@/components/MatchExplorer";
 
 export const dynamic = "force-dynamic";
 
@@ -19,7 +19,7 @@ export default async function MatchesPage({
         <p className="mt-3 text-slate-400">{t.matches.subtitle}</p>
       </header>
       <div className="mt-10">
-        <MatchList matches={matches} locale={params.locale} t={t} />
+        <MatchExplorer matches={matches} locale={params.locale} t={t} />
       </div>
     </div>
   );
