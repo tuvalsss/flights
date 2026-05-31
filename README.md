@@ -22,6 +22,9 @@ everything end‑to‑end.
   Arabic 🇸🇦 (**RTL** support out of the box).
 - **World‑Cup‑themed design** — pitch greens, gold and royal gradients, responsive
   and mobile‑first.
+- **Bundled artwork** — original World‑Cup‑themed SVG imagery (hero, every package,
+  and each region) lives in `public/images` and ships with the repo, so a fresh
+  clone has all visuals with zero external dependencies.
 - **Real fixtures & venues** for World Cup 2026 (browsable, filterable by stage).
 - **Powerful search & filters** on matches and packages — free‑text search, world
   **region** (West / Central / East / Multi‑city), **date range**, max price and
@@ -87,6 +90,8 @@ Copy `.env.example` to `.env.local` and set:
 
 ```
 data/                      # JSON data store (matches, packages, settings, orders)
+public/images/             # Bundled World-Cup-themed artwork (SVG, ships in git)
+scripts/generate-art.mjs   # Regenerates the SVG artwork (node scripts/generate-art.mjs)
 src/
   app/
     [locale]/              # Localized public site (home, matches, packages, checkout…)

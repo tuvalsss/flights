@@ -16,7 +16,7 @@
     "popular": true,
     "accent": "sunset",
     "image": "azteca",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174451_d4dd8373-aeae-46d5-886a-8e0784506f6a.png",
+    "imageUrl": "/images/azteca.svg",
     "name": {
       "en": "Azteca Opening Fiesta",
       "ru": "Открытие на «Ацтеке»",
@@ -30,10 +30,34 @@
       "ar": "كن داخل ملعب أزتيكا الأسطوري في مباراة الافتتاح — المكسيك ضد جنوب أفريقيا."
     },
     "includes": {
-      "en": ["Category 1 hospitality seat", "3 nights 4★ hotel in Mexico City", "Airport & stadium transfers", "Pre-match lounge with open bar", "Local welcome experience"],
-      "ru": ["Гостевое место категории 1", "3 ночи в отеле 4★ в Мехико", "Трансферы аэропорт и стадион", "Лаундж до матча с открытым баром", "Приветственная программа"],
-      "es": ["Asiento hospitality categoría 1", "3 noches hotel 4★ en Ciudad de México", "Traslados aeropuerto y estadio", "Lounge previo con barra libre", "Experiencia de bienvenida local"],
-      "ar": ["مقعد ضيافة فئة 1", "3 ليالٍ في فندق 4★ بمكسيكو سيتي", "تنقلات المطار والملعب", "صالة ما قبل المباراة مع مشروبات مجانية", "تجربة ترحيب محلية"]
+      "en": [
+        "Category 1 hospitality seat",
+        "3 nights 4★ hotel in Mexico City",
+        "Airport & stadium transfers",
+        "Pre-match lounge with open bar",
+        "Local welcome experience"
+      ],
+      "ru": [
+        "Гостевое место категории 1",
+        "3 ночи в отеле 4★ в Мехико",
+        "Трансферы аэропорт и стадион",
+        "Лаундж до матча с открытым баром",
+        "Приветственная программа"
+      ],
+      "es": [
+        "Asiento hospitality categoría 1",
+        "3 noches hotel 4★ en Ciudad de México",
+        "Traslados aeropuerto y estadio",
+        "Lounge previo con barra libre",
+        "Experiencia de bienvenida local"
+      ],
+      "ar": [
+        "مقعد ضيافة فئة 1",
+        "3 ليالٍ في فندق 4★ بمكسيكو سيتي",
+        "تنقلات المطار والملعب",
+        "صالة ما قبل المباراة مع مشروبات مجانية",
+        "تجربة ترحيب محلية"
+      ]
     }
   },
   {
@@ -53,7 +77,7 @@
     "popular": false,
     "accent": "royal",
     "image": "la",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174627_662be63c-f62a-415e-a390-a1440d7dc46b.png",
+    "imageUrl": "/images/la.svg",
     "name": {
       "en": "USA Kickoff — Los Angeles",
       "ru": "Старт США — Лос-Анджелес",
@@ -67,10 +91,34 @@
       "ar": "شجّع البلد المضيف بينما تفتتح أمريكا البطولة أمام باراغواي في لوس أنجلوس."
     },
     "includes": {
-      "en": ["Premium hospitality seat", "3 nights 4★ hotel near downtown LA", "Matchday transfers", "Gourmet lounge dining", "Dedicated guest host"],
-      "ru": ["Премиальное гостевое место", "3 ночи в отеле 4★ в центре Лос-Анджелеса", "Трансферы в день матча", "Гурме-лаундж", "Персональный хост"],
-      "es": ["Asiento hospitality premium", "3 noches hotel 4★ cerca del centro de LA", "Traslados día de partido", "Comida gourmet en lounge", "Anfitrión dedicado"],
-      "ar": ["مقعد ضيافة مميز", "3 ليالٍ في فندق 4★ قرب وسط لوس أنجلوس", "تنقلات يوم المباراة", "طعام فاخر في الصالة", "مضيف مخصص"]
+      "en": [
+        "Premium hospitality seat",
+        "3 nights 4★ hotel near downtown LA",
+        "Matchday transfers",
+        "Gourmet lounge dining",
+        "Dedicated guest host"
+      ],
+      "ru": [
+        "Премиальное гостевое место",
+        "3 ночи в отеле 4★ в центре Лос-Анджелеса",
+        "Трансферы в день матча",
+        "Гурме-лаундж",
+        "Персональный хост"
+      ],
+      "es": [
+        "Asiento hospitality premium",
+        "3 noches hotel 4★ cerca del centro de LA",
+        "Traslados día de partido",
+        "Comida gourmet en lounge",
+        "Anfitrión dedicado"
+      ],
+      "ar": [
+        "مقعد ضيافة مميز",
+        "3 ليالٍ في فندق 4★ قرب وسط لوس أنجلوس",
+        "تنقلات يوم المباراة",
+        "طعام فاخر في الصالة",
+        "مضيف مخصص"
+      ]
     }
   },
   {
@@ -90,7 +138,7 @@
     "popular": true,
     "accent": "pitch",
     "image": "explorer",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174929_a7fdc70a-c2b7-4470-bd15-45645a20ddf3.png",
+    "imageUrl": "/images/explorer.svg",
     "name": {
       "en": "Group Stage Explorer (3 Matches)",
       "ru": "Тур группового этапа (3 матча)",
@@ -104,10 +152,34 @@
       "ar": "ثلاث مباريات من دور المجموعات عبر المدن المضيفة مع ضيافة و5 ليالٍ إقامة."
     },
     "includes": {
-      "en": ["3 group-stage hospitality seats", "5 nights 4★ accommodation", "Inter-city travel coordination", "All lounge catering & beverages", "Flexible match selection"],
-      "ru": ["3 гостевых места на групповом этапе", "5 ночей в отеле 4★", "Координация переездов между городами", "Все кейтеринг и напитки", "Гибкий выбор матчей"],
-      "es": ["3 asientos hospitality de grupos", "5 noches alojamiento 4★", "Coordinación de viajes entre ciudades", "Catering y bebidas en lounge", "Selección flexible de partidos"],
-      "ar": ["3 مقاعد ضيافة لدور المجموعات", "5 ليالٍ إقامة 4★", "تنسيق التنقل بين المدن", "تموين ومشروبات في الصالة", "اختيار مرن للمباريات"]
+      "en": [
+        "3 group-stage hospitality seats",
+        "5 nights 4★ accommodation",
+        "Inter-city travel coordination",
+        "All lounge catering & beverages",
+        "Flexible match selection"
+      ],
+      "ru": [
+        "3 гостевых места на групповом этапе",
+        "5 ночей в отеле 4★",
+        "Координация переездов между городами",
+        "Все кейтеринг и напитки",
+        "Гибкий выбор матчей"
+      ],
+      "es": [
+        "3 asientos hospitality de grupos",
+        "5 noches alojamiento 4★",
+        "Coordinación de viajes entre ciudades",
+        "Catering y bebidas en lounge",
+        "Selección flexible de partidos"
+      ],
+      "ar": [
+        "3 مقاعد ضيافة لدور المجموعات",
+        "5 ليالٍ إقامة 4★",
+        "تنسيق التنقل بين المدن",
+        "تموين ومشروبات في الصالة",
+        "اختيار مرن للمباريات"
+      ]
     }
   },
   {
@@ -127,7 +199,7 @@
     "popular": false,
     "accent": "royal",
     "image": "boston",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174702_a6aa5649-ab2a-4885-b0e4-da9b385f290a.png",
+    "imageUrl": "/images/boston.svg",
     "name": {
       "en": "Champions Lounge — Quarterfinal",
       "ru": "Champions Lounge — Четвертьфинал",
@@ -141,10 +213,34 @@
       "ar": "إثارة الأدوار الإقصائية مع ضيافة راقية وإقامة 5★ لمباراة ربع نهائي."
     },
     "includes": {
-      "en": ["Club-level hospitality seat", "3 nights 5★ hotel", "Private transfers", "Champagne lounge", "Concierge service"],
-      "ru": ["Гостевое место клубного уровня", "3 ночи в отеле 5★", "Приватные трансферы", "Шампань-лаундж", "Консьерж-сервис"],
-      "es": ["Asiento hospitality club", "3 noches hotel 5★", "Traslados privados", "Lounge de champán", "Servicio de conserjería"],
-      "ar": ["مقعد ضيافة بمستوى النادي", "3 ليالٍ في فندق 5★", "تنقلات خاصة", "صالة شمبانيا", "خدمة الكونسيرج"]
+      "en": [
+        "Club-level hospitality seat",
+        "3 nights 5★ hotel",
+        "Private transfers",
+        "Champagne lounge",
+        "Concierge service"
+      ],
+      "ru": [
+        "Гостевое место клубного уровня",
+        "3 ночи в отеле 5★",
+        "Приватные трансферы",
+        "Шампань-лаундж",
+        "Консьерж-сервис"
+      ],
+      "es": [
+        "Asiento hospitality club",
+        "3 noches hotel 5★",
+        "Traslados privados",
+        "Lounge de champán",
+        "Servicio de conserjería"
+      ],
+      "ar": [
+        "مقعد ضيافة بمستوى النادي",
+        "3 ليالٍ في فندق 5★",
+        "تنقلات خاصة",
+        "صالة شمبانيا",
+        "خدمة الكونسيرج"
+      ]
     }
   },
   {
@@ -164,7 +260,7 @@
     "popular": true,
     "accent": "gold",
     "image": "dallas",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174800_659d93a9-fc6e-4254-a87a-79ae5debe4a1.png",
+    "imageUrl": "/images/dallas.svg",
     "name": {
       "en": "Semifinal Prestige — Dallas",
       "ru": "Полуфинал Prestige — Даллас",
@@ -178,10 +274,34 @@
       "ar": "واحدة من مباريات الأربعة الكبار. ضيافة بجانب الملعب في AT&T Stadium مع إقامة فاخرة."
     },
     "includes": {
-      "en": ["Pitchside hospitality lounge", "3 nights 5★ luxury hotel", "Private chauffeur transfers", "Premium open bar & fine dining", "VIP fast-track entry"],
-      "ru": ["Лаундж у поля", "3 ночи в люкс-отеле 5★", "Личный водитель", "Премиум-бар и изысканная кухня", "VIP вход без очереди"],
-      "es": ["Lounge a pie de campo", "3 noches hotel de lujo 5★", "Traslados con chófer privado", "Barra libre premium y alta cocina", "Entrada VIP rápida"],
-      "ar": ["صالة ضيافة بجانب الملعب", "3 ليالٍ في فندق فاخر 5★", "تنقلات بسائق خاص", "بار مفتوح فاخر وطعام راقٍ", "دخول VIP سريع"]
+      "en": [
+        "Pitchside hospitality lounge",
+        "3 nights 5★ luxury hotel",
+        "Private chauffeur transfers",
+        "Premium open bar & fine dining",
+        "VIP fast-track entry"
+      ],
+      "ru": [
+        "Лаундж у поля",
+        "3 ночи в люкс-отеле 5★",
+        "Личный водитель",
+        "Премиум-бар и изысканная кухня",
+        "VIP вход без очереди"
+      ],
+      "es": [
+        "Lounge a pie de campo",
+        "3 noches hotel de lujo 5★",
+        "Traslados con chófer privado",
+        "Barra libre premium y alta cocina",
+        "Entrada VIP rápida"
+      ],
+      "ar": [
+        "صالة ضيافة بجانب الملعب",
+        "3 ليالٍ في فندق فاخر 5★",
+        "تنقلات بسائق خاص",
+        "بار مفتوح فاخر وطعام راقٍ",
+        "دخول VIP سريع"
+      ]
     }
   },
   {
@@ -201,7 +321,7 @@
     "popular": false,
     "accent": "gold",
     "image": "metlife",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_174827_95393c5f-187a-4bc8-99ac-a8425429c952.png",
+    "imageUrl": "/images/metlife.svg",
     "name": {
       "en": "Trophy Journey — Final Pitchside",
       "ru": "Путь к трофею — Финал у поля",
@@ -215,10 +335,34 @@
       "ar": "نهائي كأس العالم في MetLife Stadium مع ضيافة بجانب الملعب و3 ليالٍ فاخرة."
     },
     "includes": {
-      "en": ["Final pitchside-lounge seat", "3 nights 5★ Manhattan hotel", "Private transfers", "Celebration gala access", "Dedicated concierge"],
-      "ru": ["Место у поля на финал", "3 ночи в отеле 5★ на Манхэттене", "Приватные трансферы", "Доступ на гала-вечер", "Персональный консьерж"],
-      "es": ["Asiento a pie de campo en la Final", "3 noches hotel 5★ en Manhattan", "Traslados privados", "Acceso a gala de celebración", "Conserje dedicado"],
-      "ar": ["مقعد بجانب الملعب في النهائي", "3 ليالٍ في فندق 5★ بمانهاتن", "تنقلات خاصة", "دخول حفل الاحتفال", "كونسيرج مخصص"]
+      "en": [
+        "Final pitchside-lounge seat",
+        "3 nights 5★ Manhattan hotel",
+        "Private transfers",
+        "Celebration gala access",
+        "Dedicated concierge"
+      ],
+      "ru": [
+        "Место у поля на финал",
+        "3 ночи в отеле 5★ на Манхэттене",
+        "Приватные трансферы",
+        "Доступ на гала-вечер",
+        "Персональный консьерж"
+      ],
+      "es": [
+        "Asiento a pie de campo en la Final",
+        "3 noches hotel 5★ en Manhattan",
+        "Traslados privados",
+        "Acceso a gala de celebración",
+        "Conserje dedicado"
+      ],
+      "ar": [
+        "مقعد بجانب الملعب في النهائي",
+        "3 ليالٍ في فندق 5★ بمانهاتن",
+        "تنقلات خاصة",
+        "دخول حفل الاحتفال",
+        "كونسيرج مخصص"
+      ]
     }
   },
   {
@@ -238,7 +382,7 @@
     "popular": true,
     "accent": "gold",
     "image": "vip",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175006_c359b7dc-75c8-4d2d-80d8-73e7ce4bf7ad.png",
+    "imageUrl": "/images/vip.svg",
     "name": {
       "en": "Final VIP Private Suite",
       "ru": "Финал — VIP приватная ложа",
@@ -252,10 +396,38 @@
       "ar": "الطريقة المثلى لمشاهدة النهائي — جناح خاص وخدمة كبير الخدم و4 ليالٍ من الفخامة."
     },
     "includes": {
-      "en": ["Private stadium suite (6–12 guests)", "Personal butler & host", "4 nights 5★ luxury hotel", "Chauffeured luxury transfers", "Trophy-lift hospitality & gala", "Premium gifting"],
-      "ru": ["Приватная ложа на стадионе (6–12 гостей)", "Личный дворецкий и хост", "4 ночи в люкс-отеле 5★", "Трансферы с водителем на люкс-авто", "Гостеприимство церемонии и гала", "Премиум-подарки"],
-      "es": ["Suite privada en el estadio (6–12 invitados)", "Mayordomo y anfitrión personal", "4 noches hotel de lujo 5★", "Traslados de lujo con chófer", "Hospitality de la ceremonia y gala", "Regalos premium"],
-      "ar": ["جناح خاص في الملعب (6–12 ضيفًا)", "خادم ومضيف شخصي", "4 ليالٍ في فندق فاخر 5★", "تنقلات فاخرة بسائق", "ضيافة مراسم الكأس والحفل", "هدايا مميزة"]
+      "en": [
+        "Private stadium suite (6–12 guests)",
+        "Personal butler & host",
+        "4 nights 5★ luxury hotel",
+        "Chauffeured luxury transfers",
+        "Trophy-lift hospitality & gala",
+        "Premium gifting"
+      ],
+      "ru": [
+        "Приватная ложа на стадионе (6–12 гостей)",
+        "Личный дворецкий и хост",
+        "4 ночи в люкс-отеле 5★",
+        "Трансферы с водителем на люкс-авто",
+        "Гостеприимство церемонии и гала",
+        "Премиум-подарки"
+      ],
+      "es": [
+        "Suite privada en el estadio (6–12 invitados)",
+        "Mayordomo y anfitrión personal",
+        "4 noches hotel de lujo 5★",
+        "Traslados de lujo con chófer",
+        "Hospitality de la ceremonia y gala",
+        "Regalos premium"
+      ],
+      "ar": [
+        "جناح خاص في الملعب (6–12 ضيفًا)",
+        "خادم ومضيف شخصي",
+        "4 ليالٍ في فندق فاخر 5★",
+        "تنقلات فاخرة بسائق",
+        "ضيافة مراسم الكأس والحفل",
+        "هدايا مميزة"
+      ]
     }
   },
   {
@@ -275,7 +447,7 @@
     "popular": false,
     "accent": "royal",
     "image": "series",
-    "imageUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3E4dUMReeEzBxkAu4R9m1zSd6b0/hf_20260531_175039_a0ab5dda-d451-4075-8ddb-e21471699ef8.png",
+    "imageUrl": "/images/series.svg",
     "name": {
       "en": "Road to Glory — Final Series (Semis + Final)",
       "ru": "Дорога к славе — серия плей-офф (полуфиналы + финал)",
@@ -289,10 +461,38 @@
       "ar": "تابع كلا نصفي النهائي والنهائي مع ضيافة سلسة و8 ليالٍ إقامة 5★."
     },
     "includes": {
-      "en": ["2 semifinals + Final hospitality", "8 nights 5★ accommodation", "Inter-city private travel", "All premium catering", "VIP fast-track at every venue", "Personal trip manager"],
-      "ru": ["2 полуфинала + финал", "8 ночей в отелях 5★", "Приватные переезды между городами", "Премиум-кейтеринг", "VIP вход на каждом стадионе", "Личный менеджер поездки"],
-      "es": ["2 semifinales + Final", "8 noches alojamiento 5★", "Viajes privados entre ciudades", "Catering premium", "Acceso VIP en cada sede", "Gestor de viaje personal"],
-      "ar": ["نصفا نهائي + نهائي", "8 ليالٍ إقامة 5★", "تنقل خاص بين المدن", "تموين فاخر بالكامل", "دخول VIP في كل ملعب", "مدير رحلة شخصي"]
+      "en": [
+        "2 semifinals + Final hospitality",
+        "8 nights 5★ accommodation",
+        "Inter-city private travel",
+        "All premium catering",
+        "VIP fast-track at every venue",
+        "Personal trip manager"
+      ],
+      "ru": [
+        "2 полуфинала + финал",
+        "8 ночей в отелях 5★",
+        "Приватные переезды между городами",
+        "Премиум-кейтеринг",
+        "VIP вход на каждом стадионе",
+        "Личный менеджер поездки"
+      ],
+      "es": [
+        "2 semifinales + Final",
+        "8 noches alojamiento 5★",
+        "Viajes privados entre ciudades",
+        "Catering premium",
+        "Acceso VIP en cada sede",
+        "Gestor de viaje personal"
+      ],
+      "ar": [
+        "نصفا نهائي + نهائي",
+        "8 ليالٍ إقامة 5★",
+        "تنقل خاص بين المدن",
+        "تموين فاخر بالكامل",
+        "دخول VIP في كل ملعب",
+        "مدير رحلة شخصي"
+      ]
     }
   }
 ]
